@@ -26,7 +26,7 @@ Load css-devices-classes.js in page header, e.g.
 
 ### Show only on a specific device
 ```
-<p class="**android-only**">Only visible on android devices.</p>
+<p class="android-only">Only visible on android devices.</p>
 <p class="iphone-only">Only visible on iphones.</p>
 <p class="mobile-only">Only visible on mobiles. (android or iphone)</p>
 <p class="desktop-only">Only visible on desktops. (not mobile)</p>
@@ -56,5 +56,29 @@ Load css-devices-classes.js in page header, e.g.
 ```
 
 
+## CSS Classes
 
+### Display
+- android-only
+- iphone-only
+- mobile-only
+- desktop-only
+- unkown-only 
+- android-hide
+- iphone-hide
+- mobile-hide
+- desktop-hide
+- unkown-hide
+
+### Selector
+- is-android
+- is-iphone
+- is-mobile
+- is-desktop
+- is-unkown
+- is-not-android
+- is-not-iphone
+- is-not-mobile
+- is-not-desktop
+- is-not-unkown	
 

@@ -10,6 +10,8 @@ Simple javascript that adds CSS classes to control style and visibility for andr
 
 
 
+
+
 ## Integration
 Load css-devices-classes.js in page header, e.g.
 
@@ -18,11 +20,13 @@ Load css-devices-classes.js in page header, e.g.
 ```
 
 
+
+
 ## Usage
 
 ### Show only on a specific device
 ```
-<p class="android-only">Only visible on android devices.</p>
+<p class="**android-only**">Only visible on android devices.</p>
 <p class="iphone-only">Only visible on iphones.</p>
 <p class="mobile-only">Only visible on mobiles. (android or iphone)</p>
 <p class="desktop-only">Only visible on desktops. (not mobile)</p>

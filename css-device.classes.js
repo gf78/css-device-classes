@@ -7,9 +7,9 @@ by gf78.net
 Adds CSS classes for device classes.
 
 Display only on: 	android-only, iphone-only, mobile-only, desktop-only, unkown-only 
-Hide on: 			android-hide, iphone-hide, mobile-hide, desktop-hide, unkown-hide 
+Hide on: 		android-hide, iphone-hide, mobile-hide, desktop-hide, unkown-hide 
 Selector classes: 	is-android, is-iphone, is-mobile, is-desktop, is-unkown,
-					is-not-android, is-not-iphone, is-not-mobile, is-not-desktop, is-not-unkown								   
+			is-not-android, is-not-iphone, is-not-mobile, is-not-desktop, is-not-unkown								   
 
 */
 

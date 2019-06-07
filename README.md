@@ -13,13 +13,39 @@ Simple javascript that adds CSS classes to control style and visibility for andr
 
 
 ## Integration
-Load css-devices-classes.js in page header, e.g.
+Add content of snippet.min.html to the head of your html page
 
 ```
-<script src="https://raw.githubusercontent.com/gf78/css-device-classes/master/css-device.classes.js" type="text/javascript"></script>
+<head>
+...
+<!--CSS-Device-Classes--><script>try{h=document.getElementsByTagName('html')[0].classList;if(!h.contains('device-classes')){try{u=navigator.userAgent||navigator.vendor||window.opera;if(/android/i.test(u))h.add('device-classes','is-android','is-not-iphone','is-mobile','is-not-desktop');else if(/iPhone/i.test(u))h.add('device-classes','is-not-android','is-iphone','is-mobile','is-not-desktop');else h.add('device-classes','is-not-android','is-not-iphone','is-not-mobile','is-desktop');delete u}catch(e){h.add('device-classes','is-not-android','is-not-iphone','is-not-mobile','is-desktop')} s=document.createElement('style');s.type='text/css';s.innerHTML='.is-not-android .android-only, .is-not-iphone .iphone-only, .is-not-mobile .mobile-only, .is-not-desktop .desktop-only, .is-android .android-hide, .is-iphone .iphone-hide, .is-mobile .mobile-hide, .is-desktop .desktop-hide { display: none; }';document.getElementsByTagName('head')[0].appendChild(s);delete s} delete h}catch(e){}</script>
+...
+</head>
 ```
 
 
+## CSS Classes
+
+### Display
+- android-only
+- iphone-only
+- mobile-only
+- desktop-only
+- android-hide
+- iphone-hide
+- mobile-hide
+- desktop-hide
+
+### Selector
+- is-android
+- is-iphone
+- is-mobile
+- is-desktop
+- is-not-android
+- is-not-iphone
+- is-not-mobile
+- is-not-desktop
+- device-classes
 
 
 ## Usage
@@ -56,29 +82,5 @@ Load css-devices-classes.js in page header, e.g.
 ```
 
 
-## CSS Classes
 
-### Display
-- android-only
-- iphone-only
-- mobile-only
-- desktop-only
-- unkown-only 
-- android-hide
-- iphone-hide
-- mobile-hide
-- desktop-hide
-- unkown-hide
-
-### Selector
-- is-android
-- is-iphone
-- is-mobile
-- is-desktop
-- is-unkown
-- is-not-android
-- is-not-iphone
-- is-not-mobile
-- is-not-desktop
-- is-not-unkown	
 

@@ -13,7 +13,7 @@ Small, fast &amp; simple javascript that provides CSS classes to control style a
 
 
 ## Integration
-Add content of [snippet.min.html](snippet.min.html) to the head of your html page or load the [css-device-classes.min.js](css-device-classes.min.js) script.
+Add content of [snippet.min.html](snippet.min.html) to the head of your html page or load the [css-device.classes.min.js](css-device.classes.min.js) script.
 
 ```
 <head>
@@ -26,7 +26,7 @@ Add content of [snippet.min.html](snippet.min.html) to the head of your html pag
 ```
 <head>
 ...
-<script src="css-device-classes.min.js" defer type="text/javascript"></script>
+<script src="css-device.classes.min.js" defer type="text/javascript"></script>
 ...
 </head>
 ```

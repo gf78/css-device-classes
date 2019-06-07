@@ -73,7 +73,7 @@ Add content of snippet.min.html to the head of your html page or load the css-de
 <p class="android-hide">Not visible on android devices.</p>
 <p class="iphone-hide">Not visible on iphones.</p>
 <p class="mobile-hide">Not visible on mobiles. (android or iphone)</p>
-<p class="desktop-hide">No visible on desktops. (not mobile)</p>
+<p class="desktop-hide">Not visible on desktops. (not mobile)</p>
 ```
 
 
@@ -91,6 +91,8 @@ Add content of snippet.min.html to the head of your html page or load the css-de
 
 ```
 
+### Demo
+See [demo.html](demo.html) for more examples.
 
 
 

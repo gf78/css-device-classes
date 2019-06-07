@@ -13,7 +13,7 @@ Simple javascript that adds CSS classes to control style and visibility for andr
 
 
 ## Integration
-Add content of snippet.min.html to the head of your html page
+Add content of snippet.min.html to the head of your html page or load the css-device-classes.min.js
 
 ```
 <head>
@@ -22,6 +22,16 @@ Add content of snippet.min.html to the head of your html page
 ...
 </head>
 ```
+
+```
+<head>
+...
+<script src="css-device-classes.min.js" defer type="text/javascript"></script>
+...
+</head>
+```
+
+
 
 
 ## CSS Classes

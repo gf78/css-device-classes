@@ -6,6 +6,7 @@ Small, fast &amp; simple javascript that provides CSS classes to control style a
 - hide on specific devices
 - use device type in custom css selectors
 - supports android, iphone and desktop
+- available as wordpress plugin
 
 
 

@@ -32,8 +32,8 @@ Add content of [snippet.min.html](snippet.min.html) to the head of your html pag
 ...
 </head>
 ```
-### Wordpress
-Add the content of [functions.php](wordpress/functions.php) to your theme's function.php file or install the plugin [css-device-classes.zip](wordpress/css-device-classes.zip):
+### Wordpress (experimental)
+Add the content of [functions.php](wordpress/functions.php) to your theme's function.php file:
 
 ```
 ...

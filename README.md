@@ -13,6 +13,7 @@ Small, fast &amp; simple javascript that provides CSS classes to control style a
 
 
 ## Integration
+### Generic
 Add content of [snippet.min.html](snippet.min.html) to the head of your html page or load the [css-device.classes.min.js](css-device.classes.min.js) script.
 
 ```
@@ -30,9 +31,17 @@ Add content of [snippet.min.html](snippet.min.html) to the head of your html pag
 ...
 </head>
 ```
+### Wordpress
+Add the content of [functions.php](functions.php) to your theme's function.php file.
 
-
-
+```
+...
+function css_device_classes() {
+    echo "<!--CSS-Device-Classes--><script>try{h=document.getElementsByTagName('html')[0].classList;if(!h.contains('device-classes')){try{u=navigator.userAgent||navigator.vendor||window.opera;if(/android/i.test(u))h.add('device-classes','is-android','is-not-iphone','is-mobile','is-not-desktop');else if(/iPhone/i.test(u))h.add('device-classes','is-not-android','is-iphone','is-mobile','is-not-desktop');else h.add('device-classes','is-not-android','is-not-iphone','is-not-mobile','is-desktop');delete u}catch(e){h.add('device-classes','is-not-android','is-not-iphone','is-not-mobile','is-desktop')} s=document.createElement('style');s.type='text/css';s.innerHTML='.is-not-android .android-only, .is-not-iphone .iphone-only, .is-not-mobile .mobile-only, .is-not-desktop .desktop-only, .is-android .android-hide, .is-iphone .iphone-hide, .is-mobile .mobile-hide, .is-desktop .desktop-hide { display: none; }';document.getElementsByTagName('head')[0].appendChild(s);delete s} delete h}catch(e){}</script>";
+}
+add_action( 'wp_head', 'css_device_classes' );
+...
+```
 
 ## CSS Classes
 

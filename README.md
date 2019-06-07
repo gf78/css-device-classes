@@ -92,7 +92,7 @@ Add content of [snippet.min.html](snippet.min.html) to the head of your html pag
 ```
 
 ### Demo
-See [demo.html](demo.html) for more examples.
+See [live demo](https://gf78.net/css-device-classes/) and [demo.html](demo.html) for more examples.
 
 
 

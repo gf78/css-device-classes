@@ -28,7 +28,7 @@ Add content of [snippet.min.html](snippet.min.html) to the head of your html pag
 ```
 <head>
 ...
-<script src="css-device.classes.min.js" defer type="text/javascript"></script>
+<script src="css-device.classes.min.js" type="text/javascript"></script>
 ...
 </head>
 ```

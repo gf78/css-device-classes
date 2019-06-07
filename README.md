@@ -1,6 +1,6 @@
 # css-device-classes
 
-Simple javascript that adds CSS classes to control style and visibility for android, iphone and desktop on your website.
+Small, fast &amp; simple javascript that provides CSS classes to control style and visibility of DOM elements for android, iphone and desktop devices. 
 
 - display/show only on specific devices
 - hide on specific devices

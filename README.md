@@ -32,7 +32,7 @@ Add content of [snippet.min.html](snippet.min.html) to the head of your html pag
 </head>
 ```
 ### Wordpress
-Add the content of [functions.php](functions.php) to your theme's function.php file.
+Add the content of [functions.php](wordpress/functions.php) to your theme's function.php file or install the plugin [css-device-classes.zip](wordpress/css-device-classes.zip):
 
 ```
 ...
@@ -101,7 +101,7 @@ add_action( 'wp_head', 'css_device_classes' );
 ```
 
 ### Demo
-See [live demo](https://gf78.net/css-device-classes/) and [demo.html](demo.html) for more examples.
+See [live demo](https://gf78.net/css-device-classes/) and [demo file](demo/index.html) for more examples.
 
 
 

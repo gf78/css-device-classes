@@ -1,6 +1,6 @@
 (function cssDeviceClasses() {
   try {
-    let h = document.getElementsByTagName( 'html' )[0].classList;
+    let h = document.getElementsByTagName('html')[0].classList;
     if (!h.contains('device-classes')) {
       try {
         let u = navigator.userAgent || navigator.vendor || window.opera;

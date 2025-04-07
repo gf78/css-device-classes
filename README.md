@@ -102,7 +102,7 @@ add_action( 'wp_head', 'css_device_classes' );
 ```
 
 ### Demo
-See [live demo](https://gf78.net/css-device-classes/) and [demo file](demo/index.html) for more examples.
+See [demo file](demo/index.html) for more examples.
 
 
 
